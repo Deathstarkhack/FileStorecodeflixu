@@ -19,7 +19,7 @@ API_HASH = os.environ.get("API_HASH", "b13792b9973a3f93f29701dd9db5c881")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002230964848"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Spy_radios")
+OWNER = os.environ.get("OWNER", "Death_note_336")
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5925363190"))
@@ -29,11 +29,11 @@ PORT = os.environ.get("PORT", "8030")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akuljatav494:EIfRkLjN4UCxVE31@azfilestore.fi2yfad.mongodb.net/?retryWrites=true&w=majority&appName=Azfilestore")
-DB_NAME = os.environ.get("DATABASE_NAME", "Filestorebot")
+DB_NAME = os.environ.get("DATABASE_NAME", "AzFilestorebot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002187973750"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002206511080"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001939770878"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002233963228"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
